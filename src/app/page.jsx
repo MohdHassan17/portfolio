@@ -217,7 +217,7 @@ console.log("Born to code. Built for innovation.");`;
         {/* About Me */}
 
         <div className="w-full min-h-[70vh] bg-[#0e0f0f] py-25 ">
-          <div className="container mx-auto flex flex-col gap-10">
+          <div className="container mx-auto flex flex-col gap-10 px-8">
             <div className="w-full  min-h-[70vh] flex flex-col md:flex-row gap-4 rounded-lg ">
               <div className="flex-1 flex flex-col gap-6 justify-center">
                 <div className="flex flex-col gap-3">
@@ -282,17 +282,17 @@ console.log("Born to code. Built for innovation.");`;
         {/* Projects */}
 
         <div className="w-full min-h-[70vh]  py-25 ">
-          <div className="container mx-auto flex flex-col gap-15">
+          <div className="container mx-auto flex flex-col gap-15 px-8">
             <div className="flex flex-col gap-3">
               <span className="text-[#22c55e] font-medium text-2xl">
-                export const projects
+                export default myProjects;
               </span>
               <h1 className="text-white font-poppins text-4xl font-bold">
                 My Projects
               </h1>
             </div>
 
-            <div className="grid grid-cols-1 grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-4 ">
               {/* Card */}
 
               {projects.map((project, index) => (
@@ -413,8 +413,8 @@ console.log("Born to code. Built for innovation.");`;
 
         {/* Contact */}
 
-        <section className="text-gray-600 body-font relative py-25 ">
-          <div className="container px-5 py-24 mx-auto bg-[#0f1417] rounded-lg relative">
+        <section className="text-gray-600 body-font relative py-25 px-2">
+          <div className="container px-5 py-24 mx-auto bg-[#0f1417] rounded-lg relative ">
             <div className="  flex items-center gap-2 w-full h-10 flex-1 absolute top-4 left-4 ">
               {colours.map((colour, index) => (
                 <div
