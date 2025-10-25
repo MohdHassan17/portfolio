@@ -231,12 +231,22 @@ console.log("Born to code. Built for innovation.");`;
 
                 <div className="">
                   <p className="text-white text-base md:text-lg font-poppins ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-                    minima facere sapiente dignissimos quam ab ut aperiam?
-                    Iusto, quae et minima magni, ipsum nisi suscipit reiciendis,
-                    praesentium doloremque laboriosam assumenda odit debitis
-                    placeat corporis soluta repellendus consectetur? Est,
-                    corrupti. Eveniet.
+                    Hey there! I’m Mohammed Hassan Naseer, a web developer with
+                    a passion for blending creativity and code to bring ideas to
+                    life on the web. I see every project as a blank canvas — a
+                    chance to craft something meaningful, visually engaging, and
+                    beautifully functional. Whether I’m designing sleek user
+                    interfaces or building dynamic, data-driven web apps, I love
+                    the entire process of turning concepts into interactive
+                    experiences that make people stop and explore.
+                  </p>
+                  <p className="text-white text-base md:text-lg font-poppins ">
+                    When I’m not deep in VS Code or sketching out ideas, you’ll
+                    probably find me learning something new, refining my
+                    portfolio, or working on a side project that challenges my
+                    creativity. Every line of code I write brings me one step
+                    closer to building digital experiences that leave a lasting
+                    impression.
                   </p>
                 </div>
 
@@ -320,12 +330,9 @@ console.log("Born to code. Built for innovation.");`;
                         {project.description}
                       </p>
                     </div>
-                    
+
                     <div className="flex gap-3 pt-6 mt-auto">
-                      <Button
-                        text="View Project"
-                        href={project.projectUrl}
-                      />
+                      <Button text="View Project" href={project.projectUrl} />
                       <Button
                         text="Github"
                         href={project.githubUrl}
